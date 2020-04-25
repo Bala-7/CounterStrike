@@ -63,6 +63,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Low Poly FPS Pack - Free (Sample)\Components\Demo_Scene_Components\Scripts\DebrisScript.cs" />
+    <Compile Include="Assets\Low Poly FPS Pack - Free (Sample)\Components\Demo_Scene_Components\Scripts\ExplosiveBarrelScript.cs" />
+    <Compile Include="Assets\Low Poly FPS Pack - Free (Sample)\Components\Demo_Scene_Components\Scripts\TargetScript.cs" />
+    <Compile Include="Assets\Low Poly FPS Pack - Free (Sample)\Components\Scripts\Bullet\BulletScript.cs" />
+    <Compile Include="Assets\Low Poly FPS Pack - Free (Sample)\Components\Scripts\Casings_&amp;_Projectiles\CasingScript.cs" />
+    <Compile Include="Assets\Low Poly FPS Pack - Free (Sample)\Components\Scripts\Casings_&amp;_Projectiles\GrenadeScript.cs" />
+    <Compile Include="Assets\Low Poly FPS Pack - Free (Sample)\Components\Scripts\Explosions_&amp;_Impacts\ExplosionScript.cs" />
+    <Compile Include="Assets\Low Poly FPS Pack - Free (Sample)\Components\Scripts\Explosions_&amp;_Impacts\ImpactScript.cs" />
+    <Compile Include="Assets\Low Poly FPS Pack - Free (Sample)\Components\Scripts\FPSController\FpsControllerLPFP.cs" />
+    <Compile Include="Assets\Low Poly FPS Pack - Free (Sample)\Components\Scripts\Misc\LookAtCamera.cs" />
+    <Compile Include="Assets\Low Poly FPS Pack - Free (Sample)\Components\Scripts\Weapon_Scripts\AutomaticGunScriptLPFP.cs" />
+    <Compile Include="Assets\Low Poly FPS Pack - Free (Sample)\Components\Scripts\Weapon_Scripts\HandgunScriptLPFP.cs" />
     <Compile Include="Assets\PyroParticles\Demo\DemoScript.cs" />
     <Compile Include="Assets\PyroParticles\Demo\DemoScriptEditor.cs" />
     <Compile Include="Assets\PyroParticles\Prefab\Script\FireBaseScript.cs" />
@@ -83,6 +95,7 @@
     <Compile Include="Assets\Scripts\FlashGreanade.cs" />
     <Compile Include="Assets\Scripts\GreanadeLaunch.cs" />
     <Compile Include="Assets\Scripts\Molotov.cs" />
+    <Compile Include="Assets\Scripts\SmokeGrenade.cs" />
     <None Include="Assets\PyroParticles\Prefab\Materials\AdditiveTintable.shader" />
     <None Include="Assets\PyroParticles\Readme.txt" />
     <None Include="Assets\SampleScenes\Shaders\Skybox-Procedural.shader" />
@@ -91,6 +104,9 @@
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>C:/Users/fdomi/UnityProjects/CounterStrike/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
+      <HintPath>C:/Users/fdomi/UnityProjects/CounterStrike/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/fdomi/UnityProjects/CounterStrike/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
@@ -106,6 +122,9 @@
     </Reference>
     <Reference Include="Unity.Rider.Editor">
       <HintPath>C:/Users/fdomi/UnityProjects/CounterStrike/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder.AddOns.Editor">
+      <HintPath>C:/Users/fdomi/UnityProjects/CounterStrike/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>C:/Users/fdomi/UnityProjects/CounterStrike/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
