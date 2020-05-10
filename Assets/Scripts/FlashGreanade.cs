@@ -6,11 +6,11 @@ using UnityEngine.UI;
 public class FlashGreanade : MonoBehaviour
 {
     private AudioSource asrc;
-    public Transform cam;
-    public Transform cam2;
-    public Image flashTexture;
+    private Transform cam;
+    private Transform cam2;
+    private Image flashTexture;
     private float alpha;
-    public RawImage secondCamImage;
+    private RawImage secondCamImage;
     
     [Range(0, 180)]
     public int MAX_FLASH_ANGLE;
@@ -31,6 +31,12 @@ public class FlashGreanade : MonoBehaviour
     void Start()
     {
         asrc = GetComponent<AudioSource>();
+        
+        cam = GameManager.s.GetCamTransform();
+        cam2 = GameManager.s.GetFlashCamTransform();
+        flashTexture = GameManager.s.GetFlashTexture();
+        secondCamImage = GameManager.s.GetFlashCamImage();
+
         secondCamImage.gameObject.SetActive(false);
     }
 

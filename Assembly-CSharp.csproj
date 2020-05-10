@@ -93,6 +93,7 @@
     <Compile Include="Assets\SampleScenes\Scripts\PlaceTargetWithMouse.cs" />
     <Compile Include="Assets\SampleScenes\Scripts\SlowMoButton.cs" />
     <Compile Include="Assets\Scripts\FlashGreanade.cs" />
+    <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\GreanadeLaunch.cs" />
     <Compile Include="Assets\Scripts\Molotov.cs" />
     <Compile Include="Assets\Scripts\SmokeGrenade.cs" />
